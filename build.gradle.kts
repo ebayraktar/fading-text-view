@@ -1,12 +1,13 @@
+plugins {
+    id("org.jetbrains.kotlin.android") version "1.9.10" apply false
+}
 buildscript {
-    val kotlin_version = "1.6.21"
     repositories {
         mavenCentral()
         google()
     }
     dependencies {
         classpath("com.android.tools.build:gradle:8.0.2")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
         classpath("com.github.dcendents:android-maven-gradle-plugin:1.4.1")
     }
 }

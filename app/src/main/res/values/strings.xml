@@ -22,4 +22,8 @@
         <item>Kanga who?</item>
         <item>Actually, it’s kangaroo!</item>
     </string-array>
+    <string name="title_xml_example">Xml Example</string>
+    <string name="title_composable_example">Composable Example</string>
+    <string name="created_by" translatable="false">Created by @rosenpin\nUsing discreteSeekBar by @AnderWeb</string>
+    <string name="github_fab_description">github fab</string>
 </resources>

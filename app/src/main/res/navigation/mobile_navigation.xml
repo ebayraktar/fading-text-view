@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/xmlExampleFragment">
+
+    <fragment
+        android:id="@+id/xmlExampleFragment"
+        android:name="com.tomerrosenfeld.fadingtextview.ui.home.XmlExampleFragment"
+        android:label="@string/title_xml_example"
+        tools:layout="@layout/fragment_xml_example" />
+
+    <fragment
+        android:id="@+id/composableExampleFragment"
+        android:name="com.tomerrosenfeld.fadingtextview.ui.compose.ComposeExampleFragment"
+        android:label="@string/title_composable_example" />
+</navigation>
